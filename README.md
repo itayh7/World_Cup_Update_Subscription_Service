@@ -10,4 +10,3 @@ pip install -r requirements.txt
 ```
 
 ## Usage
-In order to run the backtesting algorithm, run the model_train_and_backtesting.py file.

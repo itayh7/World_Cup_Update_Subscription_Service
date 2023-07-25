@@ -7,6 +7,9 @@ Ubuntu Linux:
 
 ```bash
 sudo apt install maven
+sudo apt-get update
+sudo apt-get install g++
+sudo apt-get install libboost-all-dev
 ```
 
 ## Usage
@@ -26,4 +29,15 @@ mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer"
 ```bash
 mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer"
 -Dexec.args="<port> reactor"
+```
+
+Client:
+1. Open in a new terminal from .../World_Cup_Update_Subscription_Service/SPL231-Assignment3-student-template-2/client directory.
+2. Compile using:
+```bash
+make
+```
+3. Run using:
+```bash
+./bin/StompWCIClient
 ```

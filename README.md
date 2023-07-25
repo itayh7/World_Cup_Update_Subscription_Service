@@ -41,3 +41,6 @@ make
 ```bash
 ./bin/StompWCIClient
 ```
+
+## Commands
+To be updated...

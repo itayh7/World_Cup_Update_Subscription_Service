@@ -42,6 +42,7 @@ make
 ./bin/StompWCIClient
 ```
 
+
 Client Commands:
 ```bash
 login {host:port} {username} {password}     // connect to the server and log in as a new or existing user.

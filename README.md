@@ -42,5 +42,12 @@ make
 ./bin/StompWCIClient
 ```
 
-## Commands
-To be updated...
+Client Commands:
+```bash
+login {host:port} {username} {password} // connect to the server and log in as a new or existing user.
+join {game_name} // subscribe to channel to get and send reports. game_name format: <team1>_<team2>
+report {file} // report from a .json file that contains events (for example client/data/events1.json)
+summary {game_name} {user} {file} // print the game updates it got from {user} for {game_name} into the provided {file}
+exit {game_name} // unsubscribe from the channel
+logout // logout from user and unsubscribe from all channels, then close connection from server.
+```

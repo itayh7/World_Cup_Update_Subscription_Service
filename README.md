@@ -22,13 +22,11 @@ mvn compile
 3. Run one of two server implementations:
 > Thread per client server:
 ```bash
-mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer"
--Dexec.args="<port> tpc"
+mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="<port> tpc"
 ```
 > Reactor server:
 ```bash
-mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer"
--Dexec.args="<port> reactor"
+mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="<port> reactor"
 ```
 
 Client:
